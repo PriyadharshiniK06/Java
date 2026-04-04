@@ -12,6 +12,9 @@ class Main {
          else if(Character.isDigit(ch)){
              System.out.println("Digit");
          }
+        else{
+             System.out.println("Special Character");
+         }
          
     }
 }
