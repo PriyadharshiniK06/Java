@@ -9,6 +9,7 @@ class Main {
         while(a<=find){
             if(a==find){
                 System.out.println("Yes");
+                return;
             }
             c=a+b;
             a=b;
