@@ -10,6 +10,7 @@ class Main {
                 System.out.println("Not An automorphic number");
                 return;
             }
+            num/=10;
         }
         System.out.println("Automorphic number");
         
