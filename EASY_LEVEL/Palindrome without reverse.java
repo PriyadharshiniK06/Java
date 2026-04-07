@@ -9,12 +9,13 @@ class Main {
         }
         int first=num/divisor;
         int last=num%10;
-        if(first!=last){
-            System.out.println("Not a palindrome number");
-        }
-        else{
-            System.out.println("Palindrome number");
-        }
-        
+        while(num>0)
+              if(first!=last){
+                  System.out.println("Not a palindrome number");
+                  return;
+             }
+             num=(num%divisor)/10;
+             divisor/=100;
     }
+    System.out.println("Palindrome Number");
 }
